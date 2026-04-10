@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "armorertrims",
+  "version": "${version}",
+  "name": "Armorer Trims",
+  "description": "¡Los armeros maestros ahora venden plantillas de armadura aleatorias!",
+  "authors": ["Miguel"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/armorertrims/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.miguel.armorertrims.ArmorerTrims"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
